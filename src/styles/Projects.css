@@ -1,10 +1,10 @@
-/* src/styles/Projects.css */
 .projects {
   padding: 60px 20px;
   background-color: var(--bone);
   color: var(--bright-gray);
   text-align: center;
 }
+
 
 .project-list {
   display: grid;
@@ -18,27 +18,39 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .project-card h3 {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .project-card p {
   font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: justify;
 }
+
 .project-card a {
   font-size: 1rem;
   color: var(--bright-gray);  
   text-decoration: none;
-  transition: color 0.3s ease-in-out; 
+  transition: color 0.3s ease-in-out;
+  text-align: left;
 }
 
 .project-card a:hover {
   color: var(--cavern-pink); 
   text-decoration: underline;  
 }
+
 .social-icons {
   display: flex;
   justify-content: center;

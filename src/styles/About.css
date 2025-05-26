@@ -1,21 +1,27 @@
 /* src/styles/About.css */
+
 #sobre {
-  padding: 60px 20px;
+  padding: 80px 20px;
   background-color: var(--cavern-pink);
   color: var(--bright-gray);
   text-align: center;
 }
 
 #sobre h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: var(--dark-gray);
 }
 
 #sobre p {
   font-size: 1.2rem;
   line-height: 1.6;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 0 20px;
+  color: var(--dark-gray);
+  text-align: justify;
 }
 
 .about-content {
@@ -24,19 +30,49 @@
   align-items: center;
   gap: 40px;
   justify-content: center;
-  text-align: left;
+  text-align: center;
 }
 
 .about-photo {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid var(--bright-gray);
 }
 
 .about-text {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+}
+
+.formacao-academica {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: var(--dark-gray);
+}
+
+.formacao-academica h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--dark-gray);
+  text-align: left;
+}
+
+.formacao-academica ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.formacao-academica li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.formacao-academica ul ul {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 @media (min-width: 768px) {
@@ -45,7 +81,23 @@
     text-align: left;
   }
 
+  .about-photo {
+    margin-right: 30px;
+  }
+
   .about-text {
     max-width: 60%;
+  }
+
+  #sobre h2 {
+    font-size: 3rem;
+  }
+
+  #sobre p {
+    font-size: 1.3rem;
+  }
+
+  .formacao-academica {
+    margin-top: 60px;
   }
 }
