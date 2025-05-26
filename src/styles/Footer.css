@@ -1,0 +1,7 @@
+/* src/styles/Footer.css */
+.footer {
+  background-color: var(--congo-brown);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

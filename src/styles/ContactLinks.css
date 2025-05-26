@@ -1,0 +1,33 @@
+/* src/styles/ContactLinks.css */
+.contact-links {
+  padding: 60px 20px;
+  background-color: var(--bone);
+  text-align: center;
+  color: var(--bright-gray);
+}
+
+.contact-links h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icons a {
+  color: var(--congo-brown);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: var(--cavern-pink);
+}
+
+.social-icons i {
+  margin-right: 8px;
+}
