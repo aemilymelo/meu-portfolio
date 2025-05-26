@@ -3,10 +3,11 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
   :root {
     --bone: #E8DBCB;
-    --cavern-pink: #E2B9B3;
+    --cavern-pink: #f7e1d3;
     --congo-brown: #5F3A42;
     --battleship-gray: #839973;
     --bright-gray: #36374B;
+    --battleship-grayd: #f7e1d1;
   }
 
   body {

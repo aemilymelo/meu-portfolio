@@ -14,7 +14,7 @@
 }
 
 .project-card {
-  background-color: var(--cavern-pink);
+  background-color: var(--battleship-grayd);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -27,4 +27,35 @@
 
 .project-card p {
   font-size: 1rem;
+}
+.project-card a {
+  font-size: 1rem;
+  color: var(--bright-gray);  
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; 
+}
+
+.project-card a:hover {
+  color: var(--cavern-pink); 
+  text-decoration: underline;  
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icons a {
+  color: var(--congo-brown);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: var(--cavern-pink);
+}
+
+.social-icons i {
+  margin-right: 8px;
 }
